@@ -15,12 +15,12 @@ public class Employee extends Person {
 
 	private static final long serialVersionUID = -1194535848440558101L;
 	
-	String companyString;
+	String company;
 	int salary;
 
-	public Employee(Integer id, String name, LocalDate birthDate, Address address, String companyString, int salary) {
+	public Employee(Integer id, String name, LocalDate birthDate, Address address, String company, int salary) {
 		super(id, name, birthDate, address);
-		this.companyString = companyString;
+		this.company = company;
 		this.salary = salary;
 	}
 

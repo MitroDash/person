@@ -3,7 +3,6 @@ package telran.java51.person.model;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Inheritance;
@@ -27,7 +26,6 @@ public class Person implements Serializable{
 	@Setter
 	String name;
 	LocalDate birthDate;
-	@Embedded
 	@Setter
 	Address address;
 

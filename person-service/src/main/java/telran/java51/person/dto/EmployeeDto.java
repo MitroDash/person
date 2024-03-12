@@ -6,5 +6,5 @@ import lombok.Getter;
 public class EmployeeDto extends PersonDto {
 	String company;
 	int salary;
-
+	
 }
